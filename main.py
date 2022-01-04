@@ -12,11 +12,13 @@ import struct
 
 basesotation = Motor(Port.A)
 firstarm1 = Motor(Port.B)
+firstarm2 = Motor(Port.C)
+secondarm = Motor(Port.D)
 
-right_stick_x = 127
-right_stick_y = 127
-left_stick_x = 127
-left_stick_y = 127
+right_stick_x = 124
+right_stick_y = 124
+left_stick_x = 124
+left_stick_y = 124
 
 
 def scale(val, src, dst):
